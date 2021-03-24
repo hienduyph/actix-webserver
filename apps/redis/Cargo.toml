@@ -1,0 +1,19 @@
+
+[package]
+name = "qredis"
+version = "0.1.0"
+authors = ["Hien Pham <hienduyph@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+mini-redis = "0.4"
+bytes = "1"
+
+[[bin]]
+name = "redis-client"
+path = "src/client/main.rs"
+
+[[bin]]
+name = "redis-server"
+path = "src/main.rs"

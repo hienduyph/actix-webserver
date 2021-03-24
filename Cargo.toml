@@ -6,5 +6,6 @@ members = [
   "apps/actix",
   "apps/warp",
   "apps/grpc",
+  "apps/redis",
 ]
 
